@@ -1,2 +1,11 @@
 Sql alchemy Challenge.
 
+Climate Analysis and Exploration
+Create a sql database for Hawaii info where you will do your querying. Take existing Hawaii.sqlite file and convert to sql (https://www.rebasedata.com/). Then edit sql file so that it is able to opened in pg4admin and create the necessary tables.
+Using starter climate notebook, use Jupyter notebook to query and communicate with the database. Perform a series of analysis to retrieve precipitation data for the last year that will be plotted.
+Print summary statistics.
+Query to find data to complete station analysis. Goal is to create a query that allows you to find min,max,avg for certain dates and stations. Plot the data.
+
+Climate App
+Design a flask api using queries from above step.
+Create various routes that provide query data based on your previously created queries. Essentially create routes to your queries. Be able to create a route that allows you to enter data and retrieve results via loop.
